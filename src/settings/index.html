@@ -1,0 +1,18 @@
+<template>
+  <require from="./index.css"></require>
+
+  <section class="settings au-animate">
+    <form role="form" submit.trigger="submit()">
+      <!--TODO: Create User Profile Form
+      * An input to edit the `firstName`
+      * An input to edit the `lastName`
+      * A span to display the `fullName`
+      * A button that submits the form, causing the `submit()` method to be executed on the view-model.
+      -->
+      <input type="text" value.bind="firstName" placeholder="whhha?">
+      <input type="text" value.bind="lastName">
+    </form>
+    <p>${fullName}</p>
+    <button type=submit>Submit</button>
+  </section>
+</template>

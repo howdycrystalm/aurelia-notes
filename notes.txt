@@ -1,0 +1,5 @@
+Beginning Aurelia Development
+Workshop Video
+
+@21:20 starts talking about "fake backend"
+similar to what we might write to wrap up a real backend
